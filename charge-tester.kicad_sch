@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "949595ee-ffb0-4c92-8822-c54a5c9d7fd6")
 	(paper "A4")
+	(title_block
+		(title "Linear Battery Charger")
+		(date "2025-11-22")
+		(rev "${REVISION}")
+		(company "York Formula Student")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:OPA1678"
 			(pin_names
