@@ -11,7 +11,7 @@
 		(company "York Formula Student")
 	)
 	(lib_symbols
-		(symbol "Amplifier_Operational:OPA1678"
+		(symbol "Amplifier_Operational:LM358"
 			(pin_names
 				(offset 0.127)
 			)
@@ -27,7 +27,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "OPA1678"
+			(property "Value" "LM358"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -54,7 +54,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-8/VSSOP-8"
+			(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -89,7 +89,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "OPA1678_1_1"
+			(symbol "LM358_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -157,7 +157,7 @@
 					)
 				)
 			)
-			(symbol "OPA1678_2_1"
+			(symbol "LM358_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -225,7 +225,7 @@
 					)
 				)
 			)
-			(symbol "OPA1678_3_1"
+			(symbol "LM358_3_1"
 				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
@@ -11345,6 +11345,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 99.06 74.93 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "302be810-fd81-4add-adc2-b421a697adeb")
+		(property "Reference" "U3"
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358"
+			(at 99.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 99.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 99.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 99.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "Mouser"
+			(at 99.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist #" "595-LM358BAIDR"
+			(at 99.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Texas Instruments"
+			(at 99.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "LM358BAIDR"
+			(at 99.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c4a2754a-d880-461f-9054-4bd6aa6eecc7")
+		)
+		(pin "5"
+			(uuid "fa26af1a-6316-4ad0-a731-d843b1edaab5")
+		)
+		(pin "8"
+			(uuid "0d3d967f-48d2-4d3d-8ea2-8958a3d4e885")
+		)
+		(pin "7"
+			(uuid "1afaaf34-65ef-40d1-b59d-0f6a7eddadfb")
+		)
+		(pin "1"
+			(uuid "182aa559-18ca-4627-a51b-1a018f700cda")
+		)
+		(pin "6"
+			(uuid "75032512-4446-4ab5-89b1-4b7767703a1c")
+		)
+		(pin "2"
+			(uuid "2c6d6b76-c34c-4553-b690-3d458a866883")
+		)
+		(pin "3"
+			(uuid "b4a320bc-5114-4a8c-b040-853b4597a313")
+		)
+		(instances
+			(project ""
+				(path "/949595ee-ffb0-4c92-8822-c54a5c9d7fd6"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 40.64 78.74 0)
 		(unit 1)
@@ -11404,127 +11525,6 @@
 			(project ""
 				(path "/949595ee-ffb0-4c92-8822-c54a5c9d7fd6"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA1678")
-		(at 92.71 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31eaf857-8bde-49ba-88c9-12efb5b9cc90")
-		(property "Reference" "U3"
-			(at 92.71 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1678"
-			(at 92.71 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 92.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 92.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-8/VSSOP-8"
-			(at 92.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" "LCSC"
-			(at 92.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C192421"
-			(at 92.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Texas Instruments"
-			(at 92.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr #" "OPA1678IDR"
-			(at 92.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "b4b87132-4da3-4383-96c5-f2899041cdf4")
-		)
-		(pin "7"
-			(uuid "850fb188-459b-457d-97c1-07eb047922f9")
-		)
-		(pin "8"
-			(uuid "d3d7aff8-572b-49b9-91b5-cd0faa57a9cb")
-		)
-		(pin "3"
-			(uuid "09e70998-d4f9-431b-8e49-f4e9df6bb52e")
-		)
-		(pin "2"
-			(uuid "3a26a828-1078-479e-9f7b-58ae1b228ecd")
-		)
-		(pin "1"
-			(uuid "951758e7-b94a-4240-99eb-4bcc05d36dbb")
-		)
-		(pin "4"
-			(uuid "cb0feab7-8f21-481e-9169-27557c819fb6")
-		)
-		(pin "5"
-			(uuid "be33efe1-3dfb-47fd-9eb1-afdf7b55a58f")
-		)
-		(instances
-			(project ""
-				(path "/949595ee-ffb0-4c92-8822-c54a5c9d7fd6"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -13656,130 +13656,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1678")
-		(at 43.18 87.63 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d3160bf-58a8-4402-9721-a1bf303cee88")
-		(property "Reference" "U3"
-			(at 41.91 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OPA1678"
-			(at 41.91 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 43.18 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 43.18 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-8/VSSOP-8"
-			(at 43.18 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" "LCSC"
-			(at 43.18 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C192421"
-			(at 43.18 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Texas Instruments"
-			(at 43.18 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr #" "OPA1678IDR"
-			(at 43.18 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "b4b87132-4da3-4383-96c5-f2899041cdf5")
-		)
-		(pin "7"
-			(uuid "850fb188-459b-457d-97c1-07eb047922fa")
-		)
-		(pin "8"
-			(uuid "d3d7aff8-572b-49b9-91b5-cd0faa57a9cc")
-		)
-		(pin "3"
-			(uuid "09e70998-d4f9-431b-8e49-f4e9df6bb52f")
-		)
-		(pin "2"
-			(uuid "3a26a828-1078-479e-9f7b-58ae1b228ece")
-		)
-		(pin "1"
-			(uuid "951758e7-b94a-4240-99eb-4bcc05d36dbc")
-		)
-		(pin "4"
-			(uuid "cb0feab7-8f21-481e-9169-27557c819fb7")
-		)
-		(pin "5"
-			(uuid "be33efe1-3dfb-47fd-9eb1-afdf7b55a590")
-		)
-		(instances
-			(project ""
-				(path "/949595ee-ffb0-4c92-8822-c54a5c9d7fd6"
-					(reference "U3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 242.57 147.32 0)
 		(mirror y)
@@ -15548,6 +15424,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 43.18 87.63 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "820f371e-f51e-44db-9d46-61eca444a8ea")
+		(property "Reference" "U3"
+			(at 41.91 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM358"
+			(at 41.91 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "Mouser"
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist #" "595-LM358BAIDR"
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Texas Instruments"
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "LM358BAIDR"
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c4a2754a-d880-461f-9054-4bd6aa6eecc8")
+		)
+		(pin "5"
+			(uuid "fa26af1a-6316-4ad0-a731-d843b1edaab6")
+		)
+		(pin "8"
+			(uuid "0d3d967f-48d2-4d3d-8ea2-8958a3d4e886")
+		)
+		(pin "7"
+			(uuid "1afaaf34-65ef-40d1-b59d-0f6a7eddadfc")
+		)
+		(pin "1"
+			(uuid "182aa559-18ca-4627-a51b-1a018f700cdb")
+		)
+		(pin "6"
+			(uuid "75032512-4446-4ab5-89b1-4b7767703a1d")
+		)
+		(pin "2"
+			(uuid "2c6d6b76-c34c-4553-b690-3d458a866884")
+		)
+		(pin "3"
+			(uuid "b4a320bc-5114-4a8c-b040-853b4597a314")
+		)
+		(instances
+			(project ""
+				(path "/949595ee-ffb0-4c92-8822-c54a5c9d7fd6"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "yfs:FDV303N")
 		(at 144.78 48.26 180)
 		(unit 1)
@@ -17070,6 +17070,127 @@
 			(project "charge-tester"
 				(path "/949595ee-ffb0-4c92-8822-c54a5c9d7fd6"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 92.71 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1cb80ca-204f-4213-ab2d-ba707b6eeede")
+		(property "Reference" "U3"
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358"
+			(at 92.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "Mouser"
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist #" "595-LM358BAIDR"
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Texas Instruments"
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "LM358BAIDR"
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c4a2754a-d880-461f-9054-4bd6aa6eecc9")
+		)
+		(pin "5"
+			(uuid "fa26af1a-6316-4ad0-a731-d843b1edaab7")
+		)
+		(pin "8"
+			(uuid "0d3d967f-48d2-4d3d-8ea2-8958a3d4e887")
+		)
+		(pin "7"
+			(uuid "1afaaf34-65ef-40d1-b59d-0f6a7eddadfd")
+		)
+		(pin "1"
+			(uuid "182aa559-18ca-4627-a51b-1a018f700cdc")
+		)
+		(pin "6"
+			(uuid "75032512-4446-4ab5-89b1-4b7767703a1e")
+		)
+		(pin "2"
+			(uuid "2c6d6b76-c34c-4553-b690-3d458a866885")
+		)
+		(pin "3"
+			(uuid "b4a320bc-5114-4a8c-b040-853b4597a315")
+		)
+		(instances
+			(project ""
+				(path "/949595ee-ffb0-4c92-8822-c54a5c9d7fd6"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -18784,127 +18905,6 @@
 				(path "/949595ee-ffb0-4c92-8822-c54a5c9d7fd6"
 					(reference "#PWR037")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA1678")
-		(at 99.06 74.93 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f11655d1-392a-436b-a540-e419ad9de558")
-		(property "Reference" "U3"
-			(at 99.06 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1678"
-			(at 99.06 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-8/VSSOP-8"
-			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" "LCSC"
-			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" "C192421"
-			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Texas Instruments"
-			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr #" "OPA1678IDR"
-			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "b4b87132-4da3-4383-96c5-f2899041cdf6")
-		)
-		(pin "7"
-			(uuid "850fb188-459b-457d-97c1-07eb047922fb")
-		)
-		(pin "8"
-			(uuid "d3d7aff8-572b-49b9-91b5-cd0faa57a9cd")
-		)
-		(pin "3"
-			(uuid "09e70998-d4f9-431b-8e49-f4e9df6bb530")
-		)
-		(pin "2"
-			(uuid "3a26a828-1078-479e-9f7b-58ae1b228ecf")
-		)
-		(pin "1"
-			(uuid "951758e7-b94a-4240-99eb-4bcc05d36dbd")
-		)
-		(pin "4"
-			(uuid "cb0feab7-8f21-481e-9169-27557c819fb8")
-		)
-		(pin "5"
-			(uuid "be33efe1-3dfb-47fd-9eb1-afdf7b55a591")
-		)
-		(instances
-			(project ""
-				(path "/949595ee-ffb0-4c92-8822-c54a5c9d7fd6"
-					(reference "U3")
-					(unit 2)
 				)
 			)
 		)
