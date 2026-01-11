@@ -15788,7 +15788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C25804"
+		(property "Dist #" "C4211"
 			(at 165.1 88.9 0)
 			(effects
 				(font
@@ -15806,7 +15806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "0603WAF1002T5E"
+		(property "Mfr #" "0603WAF3001T5E"
 			(at 165.1 88.9 0)
 			(effects
 				(font

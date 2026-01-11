@@ -7448,7 +7448,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C25804"
+		(property "Dist #" "C4211"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7474,7 +7474,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "0603WAF1002T5E"
+		(property "Mfr #" "0603WAF3001T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
